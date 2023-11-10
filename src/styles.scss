@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./styles/colors";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: var(--body-background-color);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
